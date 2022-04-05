@@ -1,0 +1,3 @@
+#!/bin/bash
+cat> 100_empty_casks
+find . -empty -printf "%f\n"
